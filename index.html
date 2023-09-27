@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reynaldi Neo</title>
+
+    <link
+      rel="shortcut icon"
+      href="./assets/pasFotoRey.jpeg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo" style="font-weight: bolder">Reynaldi</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#link-web">Link Web</a></li>
+          <li><a href="#projects">YouTube Video</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- responsive hamburger -->
+    <nav id="hamburger-nav">
+      <div class="logo">Reynaldi</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#link-web" onclick="toggleMenu()">Link Web</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">YouTube Video</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile" class="profile">
+      <div class="section__pic-container">
+        <img
+          src="./assets/pasFotoRey.jpeg"
+          alt="profile picture"
+          class="profile-img"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Reynaldi Neo Ramadhani</h1>
+        <p class="section__text__p2">5025221265</p>
+        <p class="section__text__p2">My Portfolio web:</p>
+        <a
+          class="section__text__p2"
+          href="https://portfolio-nextjs-reynaldineo.vercel.app/"
+          target="_blank"
+          >https://portfolio-nextjs-reynaldineo.vercel.app/</a
+        >
+
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/reynaldi-neo-ramadhani'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/reynaldineo'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.3190366246354!2d104.45723897494095!3d0.9064404990847935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d9728f8372cb43%3A0xb69d44bf0a4b8d36!2sSMA%20Negeri%202%20Tanjungpinang!5e0!3m2!1sid!2sid!4v1694063700942!5m2!1sid!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="maps"
+          ></iframe>
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>
+              Nama saya Reynaldi Neo Ramadhani, dengan NRP 5025221265. Alamat
+              saya selama di surabaya adalah di Bumi Marina Emas. No Hp saya
+              082286868787. Harapan saya dalam kuliah pweb adalah saya dapat
+              menjadi mahir dalam membuat web
+            </p>
+            <br />
+            <p><-- Alamat sekolah saya yaitu SMAN 2 Tanjungpinang</p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <section id="link-web">
+      <p class="section__text__p1">My 10 Favorite</p>
+      <h1 class="title">Website Link</h1>
+
+      <div class="weblink-container">
+        <a
+          href="http://github.com/reynaldineo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="assets/github.png" alt="" width="100px" />
+        </a>
+        <a
+          href="http://linkedin.com/reynaldi-neo-ramadhani"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="assets/linkedin.png" alt="" width="100px" />
+        </a>
+        <a
+          href="http://https://mail.google.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="assets/email.png" alt="" width="110px" /> </a
+        ><a href="http://youtube.com" target="_blank" rel="noopener noreferrer">
+          <img src="assets/youtube.jpeg" alt="" width="100px" /> </a
+        ><a
+          href="https://chat.openai.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="assets/chatgpt.jpg" alt="" width="150px" /> </a
+        ><a
+          href="https://classroom.its.ac.id/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="assets/myitsclass.png" alt="" width="100px" />
+        </a>
+        <a href="http://figma.com " target="_blank" rel="noopener noreferrer">
+          <img src="assets/figma.png" alt="" width="100px" /> </a
+        ><a href="http://notion.so" target="_blank" rel="noopener noreferrer">
+          <img src="assets/notion.png" alt="" width="100px" />
+        </a>
+        <a
+          href="http://drive.google.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="assets/gdrive.png" alt="" width="100px" />
+        </a>
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">3 Youtube Video Favorite</h1>
+
+      <div class="experience-details-container">
+        <div class="project-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/EHr17rWWdJc?si=Bd7wCRk3LNAhg1NZ&amp;controls=0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h2 class="experience-sub-title project-title">First Video</h2>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/TjAeGjwohMg?si=QnBIqRA_GW4quRXG&amp;controls=0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h2 class="experience-sub-title project-title">Second Video</h2>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/QnLPqbLxINQ?si=aj0Ru7rzEAdqf8Kw&amp;controls=0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h2 class="experience-sub-title project-title">Third Video</h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      /> -->
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
